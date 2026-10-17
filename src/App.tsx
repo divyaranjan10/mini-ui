@@ -1,6 +1,7 @@
 import "./App.css";
 import { Button } from "./components/Button/Button";
 import { Input } from "./components/Input/Input";
+import { Badge } from "./components/Badge/Badge";
 
 function App() {
   return (
@@ -27,6 +28,10 @@ function App() {
         placeholder="Enter your password"
         error="Password is required"
       />
+
+      <Badge>Active</Badge>
+      <Badge variant="warning">Pending</Badge>
+      <Badge variant="danger">Failed</Badge>
     </div>
   );
 }
