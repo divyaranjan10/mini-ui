@@ -1,5 +1,6 @@
 import "./App.css";
 import { Button } from "./components/Button/Button";
+import { Input } from "./components/Input/Input";
 
 function App() {
   return (
@@ -11,6 +12,21 @@ function App() {
       <Button variant="danger" disabled>
         Delete
       </Button>
+
+      <Input
+        id="email"
+        label="Email address"
+        type="email"
+        placeholder="Enter your email"
+      />
+
+      <Input
+        id="password"
+        label="Password"
+        type="password"
+        placeholder="Enter your password"
+        error="Password is required"
+      />
     </div>
   );
 }
