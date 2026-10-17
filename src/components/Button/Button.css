@@ -1,0 +1,25 @@
+.ui-button {
+  padding: 10px 16px;
+  margin: 8px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  color: white;
+}
+
+.ui-button[data-variant="primary"] {
+  background: #2563eb;
+}
+
+.ui-button[data-variant="secondary"] {
+  background: #64748b;
+}
+
+.ui-button[data-variant="danger"] {
+  background: #dc2626;
+}
+
+.ui-button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}

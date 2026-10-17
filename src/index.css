@@ -2,29 +2,3 @@ body {
   font-family: Arial, sans-serif;
   padding: 32px;
 }
-
-button {
-  padding: 10px 16px;
-  margin: 8px;
-  border: none;
-  border-radius: 6px;
-  cursor: pointer;
-  color: white;
-}
-
-button[data-variant="primary"] {
-  background: #2563eb;
-}
-
-button[data-variant="secondary"] {
-  background: #64748b;
-}
-
-button[data-variant="danger"] {
-  background: #dc2626;
-}
-
-button:disabled {
-  opacity: 0.5;
-  cursor: not-allowed;
-}
